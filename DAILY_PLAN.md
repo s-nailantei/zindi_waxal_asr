@@ -20,12 +20,24 @@
 
 ## Day 2 — Jul 6
 
-- [ ] Run baseline notebook in Colab on 500-sample subset
-- [ ] Record WER/CER on validation set
-- [ ] Check GPU memory usage (Colab free T4)
-- [ ] Fix any notebook issues
-- [ ] Upload/submit first predictions to Zindi
-- [ ] Start electronics Project 1 schematics
+### ASR Challenge
+- [ ] **YOU:** Run `03_gemma_submission.ipynb` in Colab (T4 GPU)
+- [ ] **YOU:** Upload submission CSV to Zindi portal
+- [ ] Tell me your leaderboard score (WER + CER)
+- [ ] We iterate from there
+
+### Soil Sensor PCB
+- [ ] **YOU:** Open Altium → File → New → PCB Project → `ESP32_Soil_Sensor.PrjPcb`
+- [ ] **YOU:** Create `Main.SchDoc`, add components from schematic plan
+- [ ] Wire power section: USB → LDO → ESP32
+- [ ] Run ERC, fix any errors
+- [ ] Save and commit
+
+### What I've Prepped
+- `03_gemma_submission.ipynb` — Gemma 3n + LoRA for all 3 languages
+- `03_colab_submission_guide.md` — step-by-step Colab instructions
+- `docs/SCHEMATIC_PLAN.md` — detailed Altium schematic walkthrough
+- Personal docs updated in D:\Fur Mich\
 
 ## Day 3 — Jul 7
 - [ ] EDA: analyze language distribution, audio stats
